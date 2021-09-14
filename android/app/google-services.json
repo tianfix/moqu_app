@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670020970394",
+    "project_id": "moqu-apps",
+    "storage_bucket": "moqu-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670020970394:android:437c3b8e448a11eb167c23",
+        "android_client_info": {
+          "package_name": "com.example.moqu_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670020970394-ctltp90aafqv2d3f2ldqmr75lji2u8hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzyWJ3k6jWxqysAZk-OhvFeBIzDbYm6DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670020970394-ctltp90aafqv2d3f2ldqmr75lji2u8hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
