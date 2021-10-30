@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:moqu_app/bottom_navigation.dart';
 import 'package:moqu_app/screens/login_screen.dart';
 import 'package:moqu_app/theme.dart';
 import 'package:firebase_auth/firebase_auth.dart';

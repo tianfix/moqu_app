@@ -66,11 +66,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               InkWell(
                 onTap: () async {
                   auth.signOut().whenComplete((){
-                    Navigator.push(
-                      context, MaterialPageRoute(
-                        builder: (context) => LoginScreen()
-                      )
-                    );
+                    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => LoginScreen()), (route) => false);
                   });
                 },
                 child: Text(

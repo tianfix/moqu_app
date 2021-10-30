@@ -142,9 +142,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         await _firebaseAuth.signInWithEmailAndPassword(
                           email: _emailController.text,
                           password: _passwordController.text
-                        ).then((value) => Navigator.of(context).pushReplacement(
-                         MaterialPageRoute(builder: (context) => BottomNavigation()) 
-                        ));
+                        ).then((value) => Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => BottomNavigation()), (route) => false)
+                        );
                       } catch (e) {
                         setState(() {
                           isLoading = false;
